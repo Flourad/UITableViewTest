@@ -9,11 +9,12 @@
 /* Begin PBXBuildFile section */
 		7A65B7271BAA65FE008AEBA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B7261BAA65FE008AEBA0 /* main.m */; };
 		7A65B72A1BAA65FE008AEBA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B7291BAA65FE008AEBA0 /* AppDelegate.m */; };
-		7A65B72D1BAA65FE008AEBA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B72C1BAA65FE008AEBA0 /* ViewController.m */; };
-		7A65B7301BAA65FE008AEBA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A65B72E1BAA65FE008AEBA0 /* Main.storyboard */; };
 		7A65B7321BAA65FE008AEBA0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A65B7311BAA65FE008AEBA0 /* Images.xcassets */; };
-		7A65B7351BAA65FE008AEBA0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7A65B7331BAA65FE008AEBA0 /* LaunchScreen.xib */; };
 		7A65B7411BAA65FE008AEBA0 /* TableViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B7401BAA65FE008AEBA0 /* TableViewTestTests.m */; };
+		7A65B74B1BAA6646008AEBA0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A65B74A1BAA6646008AEBA0 /* Default-568h@2x.png */; };
+		7A65B7511BAA6C7D008AEBA0 /* GDYItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B7501BAA6C7D008AEBA0 /* GDYItemStore.m */; };
+		7A65B7541BAA7A2E008AEBA0 /* GDYItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B7531BAA7A2E008AEBA0 /* GDYItem.m */; };
+		7A65B7571BAA8393008AEBA0 /* GDYItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A65B7561BAA8393008AEBA0 /* GDYItemsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +33,17 @@
 		7A65B7261BAA65FE008AEBA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7A65B7281BAA65FE008AEBA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7A65B7291BAA65FE008AEBA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7A65B72B1BAA65FE008AEBA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7A65B72C1BAA65FE008AEBA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		7A65B72F1BAA65FE008AEBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7A65B7311BAA65FE008AEBA0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		7A65B7341BAA65FE008AEBA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		7A65B73A1BAA65FE008AEBA0 /* TableViewTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A65B73F1BAA65FE008AEBA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7A65B7401BAA65FE008AEBA0 /* TableViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewTestTests.m; sourceTree = "<group>"; };
+		7A65B74A1BAA6646008AEBA0 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7A65B74F1BAA6C7D008AEBA0 /* GDYItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDYItemStore.h; sourceTree = "<group>"; };
+		7A65B7501BAA6C7D008AEBA0 /* GDYItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDYItemStore.m; sourceTree = "<group>"; };
+		7A65B7521BAA7A2E008AEBA0 /* GDYItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDYItem.h; sourceTree = "<group>"; };
+		7A65B7531BAA7A2E008AEBA0 /* GDYItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDYItem.m; sourceTree = "<group>"; };
+		7A65B7551BAA8393008AEBA0 /* GDYItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDYItemsViewController.h; sourceTree = "<group>"; };
+		7A65B7561BAA8393008AEBA0 /* GDYItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDYItemsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		7A65B7181BAA65FE008AEBA0 = {
 			isa = PBXGroup;
 			children = (
+				7A65B74A1BAA6646008AEBA0 /* Default-568h@2x.png */,
 				7A65B7231BAA65FE008AEBA0 /* TableViewTest */,
 				7A65B73D1BAA65FE008AEBA0 /* TableViewTestTests */,
 				7A65B7221BAA65FE008AEBA0 /* Products */,
@@ -83,11 +88,13 @@
 			children = (
 				7A65B7281BAA65FE008AEBA0 /* AppDelegate.h */,
 				7A65B7291BAA65FE008AEBA0 /* AppDelegate.m */,
-				7A65B72B1BAA65FE008AEBA0 /* ViewController.h */,
-				7A65B72C1BAA65FE008AEBA0 /* ViewController.m */,
-				7A65B72E1BAA65FE008AEBA0 /* Main.storyboard */,
+				7A65B7521BAA7A2E008AEBA0 /* GDYItem.h */,
+				7A65B7531BAA7A2E008AEBA0 /* GDYItem.m */,
+				7A65B74F1BAA6C7D008AEBA0 /* GDYItemStore.h */,
+				7A65B7501BAA6C7D008AEBA0 /* GDYItemStore.m */,
+				7A65B7551BAA8393008AEBA0 /* GDYItemsViewController.h */,
+				7A65B7561BAA8393008AEBA0 /* GDYItemsViewController.m */,
 				7A65B7311BAA65FE008AEBA0 /* Images.xcassets */,
-				7A65B7331BAA65FE008AEBA0 /* LaunchScreen.xib */,
 				7A65B7241BAA65FE008AEBA0 /* Supporting Files */,
 			);
 			path = TableViewTest;
@@ -199,9 +206,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A65B7301BAA65FE008AEBA0 /* Main.storyboard in Resources */,
-				7A65B7351BAA65FE008AEBA0 /* LaunchScreen.xib in Resources */,
 				7A65B7321BAA65FE008AEBA0 /* Images.xcassets in Resources */,
+				7A65B74B1BAA6646008AEBA0 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,7 +225,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A65B72D1BAA65FE008AEBA0 /* ViewController.m in Sources */,
+				7A65B7571BAA8393008AEBA0 /* GDYItemsViewController.m in Sources */,
+				7A65B7511BAA6C7D008AEBA0 /* GDYItemStore.m in Sources */,
+				7A65B7541BAA7A2E008AEBA0 /* GDYItem.m in Sources */,
 				7A65B72A1BAA65FE008AEBA0 /* AppDelegate.m in Sources */,
 				7A65B7271BAA65FE008AEBA0 /* main.m in Sources */,
 			);
@@ -242,25 +250,6 @@
 			targetProxy = 7A65B73B1BAA65FE008AEBA0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7A65B72E1BAA65FE008AEBA0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A65B72F1BAA65FE008AEBA0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7A65B7331BAA65FE008AEBA0 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7A65B7341BAA65FE008AEBA0 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		7A65B7421BAA65FE008AEBA0 /* Debug */ = {
@@ -416,6 +405,7 @@
 				7A65B7461BAA65FE008AEBA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7A65B7471BAA65FE008AEBA0 /* Build configuration list for PBXNativeTarget "TableViewTestTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +414,7 @@
 				7A65B7491BAA65FE008AEBA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

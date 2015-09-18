@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GDYItemsViewController.h
 //  TableViewTest
 //
 //  Created by danyu on 9/17/15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface GDYItemsViewController : UITableViewController
 
 @end
-
